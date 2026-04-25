@@ -1,0 +1,37 @@
+:root {
+  color-scheme: light;
+
+  /* Color tokens */
+  --color-bg: #f8f6f1;
+  --color-bg-accent: #eee7db;
+  --color-surface: #fffdf8;
+  --color-border: #d3c6ad;
+  --color-text: #22201c;
+  --color-muted: #5b5448;
+  --color-primary: #a8441f;
+  --color-primary-strong: #7f2f14;
+  --color-focus: #007a78;
+
+  /* Type scale */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Space Grotesk', 'Trebuchet MS', sans-serif;
+  --step--1: 0.875rem;
+  --step-0: 1rem;
+  --step-1: 1.25rem;
+  --step-2: 1.65rem;
+  --step-3: 2.25rem;
+
+  /* Spacing and layout tokens */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --container-max: 72rem;
+  --radius-1: 0.5rem;
+  --radius-2: 1rem;
+  --radius-3: 1.5rem;
+  --shadow-soft: 0 8px 30px rgba(38, 26, 4, 0.1);
+}

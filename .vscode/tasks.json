@@ -1,0 +1,65 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install dependencies",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Check yarn",
+			"type": "shell",
+			"command": "yarn",
+			"args": [
+				"--version"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Install with yarn",
+			"type": "shell",
+			"command": "yarn",
+			"args": [
+				"install"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Typecheck",
+			"type": "shell",
+			"command": "yarn",
+			"args": [
+				"typecheck"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build",
+			"type": "shell",
+			"command": "yarn",
+			"args": [
+				"build"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "npm install",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "nvm use + npm build",
+			"type": "shell",
+			"command": "export NVM_DIR=\"$HOME/.nvm\"; [ -s \"$NVM_DIR/nvm.sh\" ] && . \"$NVM_DIR/nvm.sh\"; nvm use; node -v; npm -v; npm install; npm run build",
+			"isBackground": false
+		}
+	]
+}
